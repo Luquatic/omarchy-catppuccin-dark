@@ -4,7 +4,7 @@ A Cattpuccin-mocha theme with a dark twist!
 
 This theme uses the Cattpuccin-mocha [palette](https://catppuccin.com/palette/) with a dark background
 
-<img width="3840" height="2161" alt="screenshot-2025-10-27_21-26-54" src="https://github.com/user-attachments/assets/12edf6ab-d419-4a5f-a8e5-9087f4ca4bc9" />
+<img width="2559" height="1440" alt="screenshot-2025-10-27_21-57-20" src="https://github.com/user-attachments/assets/0deafa90-7943-4cd8-acf7-f4c35f235338" />
 
 # Installation
 
