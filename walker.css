@@ -1,0 +1,43 @@
+@define-color selected-text #f5c2e7;
+@define-color text #c6d0f5;
+@define-color base #0a0a0a;
+@define-color border #89b4fa;
+@define-color foreground #c6d0f5;
+@define-color background #0a0a0a;
+
+/* Rounded Corners */
+.box-wrapper {
+  border-radius: 8px;
+}
+
+/* Selected Item Styling */
+child:selected {
+  border-radius: 8px;
+  background-color: mix(black, @background, 0.875);
+  transition: all 0.15s ease-out;
+  transition: background-color 0s ease-out;
+  box-shadow:
+    0 0 3px rgba(0, 0, 0, 0.2),
+    0 0 3px rgba(0, 0, 0, 0.2);
+}
+child:selected .item-box {
+  transition: all 0.05s ease-out;
+  margin-left: 4px;
+}
+
+/* Revert Selected Item Color */
+child:selected .item-box * {
+  color: @text;
+}
+
+/* Enable Quick Activation Hints */
+.item-quick-activation {
+  font-size: 12px;
+  color: alpha(@text, 0.15);
+  margin-right: 2rem;
+}
+
+/* Transparent Search Bar */
+.search-container {
+  background-color: transparent;
+}
