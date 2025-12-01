@@ -1,9 +1,9 @@
 @define-color selected-text #f5c2e7;
 @define-color text #c6d0f5;
-@define-color base #0f0f0f;
+@define-color base #010101;
 @define-color border #89b4fa;
 @define-color foreground #c6d0f5;
-@define-color background #0f0f0f;
+@define-color background #010101;
 
 /* Rounded Corners */
 .box-wrapper {

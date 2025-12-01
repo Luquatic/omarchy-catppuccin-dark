@@ -1,39 +1,42 @@
+[window]
+opacity = 0.4
+
 [colors.primary]
-background = "#0f0f0f"
+background = "#010101"
 foreground = "#cdd6f4"
 dim_foreground = "#7f849c"
 bright_foreground = "#cdd6f4"
 
 [colors.cursor]
-text = "#0f0f0f"
+text = "#010101"
 cursor = "#f5e0dc"
 
 [colors.vi_mode_cursor]
-text = "#0f0f0f"
+text = "#010101"
 cursor = "#b4befe"
 
 [colors.search.matches]
-foreground = "#0f0f0f"
+foreground = "#010101"
 background = "#a6adc8"
 
 [colors.search.focused_match]
-foreground = "#0f0f0f"
+foreground = "#010101"
 background = "#a6e3a1"
 
 [colors.footer_bar]
-foreground = "#0f0f0f"
+foreground = "#010101"
 background = "#a6adc8"
 
 [colors.hints.start]
-foreground = "#0f0f0f"
+foreground = "#010101"
 background = "#f9e2af"
 
 [colors.hints.end]
-foreground = "#0f0f0f"
+foreground = "#010101"
 background = "#a6adc8"
 
 [colors.selection]
-text = "#0f0f0f"
+text = "#010101"
 background = "#f5e0dc"
 
 [colors.normal]
