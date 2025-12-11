@@ -3,7 +3,7 @@
 @define-color base #010101;
 @define-color border #89b4fa;
 @define-color foreground #c6d0f5;
-@define-color background #010101;
+@define-color background #0e0e0e;
 
 /* Rounded Corners */
 .box-wrapper {
