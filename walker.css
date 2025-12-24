@@ -20,9 +20,14 @@ child:selected {
     0 0 3px rgba(0, 0, 0, 0.2),
     0 0 3px rgba(0, 0, 0, 0.2);
 }
+
 child:selected .item-box {
-  transition: all 0.05s ease-out;
-  margin-left: 4px;
+  background: linear-gradient(90deg, alpha(@accent, 0.2), transparent 100%);
+  transform: translateX(4px);
+  transition:
+    background 150ms cubic-bezier(0.25, 0.8, 0.25, 1),
+    transform 150ms cubic-bezier(0.25, 0.8, 0.25, 1),
+    border-left 150ms ease;
 }
 
 /* Revert Selected Item Color */
@@ -40,4 +45,28 @@ child:selected .item-box * {
 /* Transparent Search Bar */
 .search-container {
   background-color: transparent;
+}
+
+/* Animations */
+child,
+.item-box {
+  transition:
+    background 150ms cubic-bezier(0.25, 0.8, 0.25, 1),
+    border-left 150ms ease,
+    transform 150ms ease;
+}
+
+window .list child {
+  animation: slideIn 180ms ease-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-15px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
