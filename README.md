@@ -2,7 +2,8 @@
 
 A Cattpuccin-mocha theme with a dark twist!
 
-This theme uses the Cattpuccin-mocha [palette](https://catppuccin.com/palette/) with a dark background
+This theme uses the Cattpuccin-mocha [palette](https://catppuccin.com/palette/) with a dark background.
+Also check out my [Glass](https://github.com/Luquatic/omarchy-catppuccin-glass) variant.
 
 <img width="2559" height="1440" alt="screenshot-2025-10-27_21-57-20" src="https://github.com/user-attachments/assets/0deafa90-7943-4cd8-acf7-f4c35f235338" />
 
